@@ -15,6 +15,7 @@ body {
 }
 
 .layout {
+  display: flex;
   min-height: 100vh;
 }
 
@@ -22,6 +23,22 @@ body {
   background-color: #f2f3ff;
   padding: 0.5rem;
   box-shadow: 1px 0px 8px #c2d1dd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 33%;
+}
+
+.content {
+  display: flex;
 }
 
 a {
